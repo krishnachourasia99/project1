@@ -1,0 +1,131 @@
+user-icon{
+    height: 3rem;
+margin-bottom:3px;
+font-size: 1.8rem;
+
+border-radius: .7rem;
+padding: .7rem 2rem;
+cursor: pointer;
+}
+.icon{
+    height: 3rem;
+margin-bottom:3px;
+font-size: 1.8rem;
+
+border-radius: .7rem;
+padding: .7rem 0rem;
+cursor: pointer;
+}
+.cart{
+    height: 3rem;
+margin-bottom:3px;
+font-size: 1.8rem;
+
+border-radius: .7rem;
+padding: .7rem 2rem;
+cursor: pointer;
+
+}
+.cart:hover{
+    font-size: 2rem;
+}
+
+.cart span{
+color:red;
+padding:.1rem .5rem;
+border-radius: .5rem;
+
+color:pink;
+font-size: 2rem;
+}
+
+
+.box-container{
+display: grid;
+grid-template-columns: repeat(auto-fit, 33rem);
+align-items: center;
+
+}  
+.products {
+margin-top: 0rem;
+}
+.box{
+
+margin-right:10px;
+margin-left:10px;
+
+background-color: var(--white);
+align-items: center;
+text-align: center;
+padding: 2rem;
+
+border-radius: 3rem;
+
+width: 270px;
+box-shadow: 8px 8px 8px rgb(78, 81, 78); 
+      
+   
+}
+.box img{
+max-width: 100%;
+height: auto;
+size: 300px;
+border-radius: 10%;
+box-shadow: 3px 4px 8px #a59f9f;
+}
+.box:hover{
+transform: scale(1.1);
+}
+.box h3{
+        margin-top: 10px;
+        font-weight: bold;
+         font-size: 25px;
+         margin-bottom: 10px;
+         text-align: center;
+    }
+   
+    .box .price{
+        margin-top: 10px;
+       font-weight: bold;
+       font-size: 20px;
+       margin-bottom: 10px;
+       text-align: center; 
+           }
+.products{
+margin-top:10rem;
+}   
+.btn{
+font-size: 1.8rem;
+background-color: var(--black);
+color: var(--white);
+border-radius: .7rem;
+padding: .7rem 2rem;
+cursor: pointer;
+}
+.btn:hover{
+font-size: 2rem;
+}
+.home/* sweets page css */{
+min-height: 100vh;
+display: flex;
+background: url(dadu/b2.jpg) no-repeat;
+
+background-size: cover;
+
+}
+.home .homeContent{
+padding-top: 2em;
+padding-left: 1px;
+
+
+}
+.home .homeContent h2{
+text-align: left;
+font-size: 11em;
+padding-top: 2em;
+color: rgb(28, 61, 29);
+
+}
+.products{
+margin-top:1rem;
+}

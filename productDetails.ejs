@@ -1,0 +1,10 @@
+<!-- productDetails.ejs -->
+<h1>Product Details</h1>
+<% if (productDetails) { %>
+  <p>Name: <%= productDetails.name %></p>
+  <p>Price: <%= productDetails.price %></p>
+  <p>Info: <%= productDetails.info %></p>
+  <!-- Add other details as needed -->
+<% } else { %>
+  <p>No product details available.</p>
+<% } %>

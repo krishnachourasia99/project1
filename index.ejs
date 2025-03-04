@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/stylesheet/ecommerce.css">
+    <title>Your E-Commerce Store</title>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <div class="logo">
+                    <!-- <img src="logo.png"> -->
+                </div>
+            </div>
+            <!-- <div class="nav-address border">
+                <p class="add-first">Delivery to</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="add-second">Jabalpur</p>
+                </div>
+            </div>
+            <div class="nav-select border">
+                <select class="search-select">
+                     <option>All</option>
+                     <input placeholder="search sharc" class="search-input">
+                     <div class="search-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                     </div>
+                </select>
+            </div> -->
+                
+            <div class="nav-signin ">
+                <input id="click" type="button" value="Sign Up" onclick="Redirect()">
+            </div>
+            <div class="nav-signin ">
+                <input id="click" type="button" value="Sign In" onclick="Redirect1()">
+            </div>
+
+            <div class="nav-cart border">
+                <i class="fa-solid fa-cart-arrow-down"></i>
+                Cart
+            </div>
+            
+        </div>
+
+        <div class="panel">
+            <div class="panel-all">
+                <i class="fa-solid fa-bars"></i>
+                All
+            </div>
+            <div class="panel-options">
+                <p><a href="/login/panel/home.html">Home</a></p>
+                <p><a href="/login/panel/about_us.html">About Us</a></p>
+                <p><a href="/login/panel/services.html">Services</a></p>
+                <p><a href="/login/panel/contactpage.html">Contact Us</a></p>
+            </div>
+            <div class="panel-deals">
+                Shop deals in Electronics 
+            </div>
+
+        </div>
+    </header>
+    <div class="slider-container">
+        <div class="slider">
+            <div class="slide active">
+                <img src="/public/images/SLIDER1.png" alt="Image 1">
+            </div>
+            <div class="slide">
+                <img src="/public/images/SLIDER2.png" alt="Image 2">
+            </div>
+            <div class="slide">
+                <img src="/public/images/SLIDER3.png" alt="Image 3">
+            </div>
+        </div>        
+        <button id="prevBtn">&#10094;</button>
+        <button id="nextBtn">&#10095;</button>
+        
+        <div class="hero-msg">
+            <p>You are on sharc.com. you can also shop in sharc india for million of product with fast local dilevery. <a>Click here to go to sharc.in</a></p>
+        </div>
+    </div>
+    <div class="shop-section">
+        <div class="box1 box">
+            <a href="/login/iitems/desktop.html">
+            <div class="box-content">
+            <h2> Desktops</h2>
+            <div class="box-img" style="background-image: url('/public/images/desktop_main.jpg');"></div>
+            <p>See more</p></a>
+            </div>
+        </div>
+        <div class="box2 box">
+            <a href="/login/iitems/laptop.html">
+            <div class="box-content">
+            <h2> Laptops</h2>
+            <div class="box-img" style="background-image: url('/public/images/laptop_main.jpeg');"></div>
+            <p>See more</p></a>
+            </div>
+        </div>
+        <div class="box3 box">
+            <a href="/login/iitems/processor.html">
+            <div class="box-content">
+            <h2>Processor</h2>
+            <div class="box-img" style="background-image: url('/public/images/amd-ryzen.jpg');"></div>
+            <p>See more</p></a>
+            </div>
+        </div>
+        <div class="box4 box">
+            <a href="/login/iitems/cabinate.html">
+            <div class="box-content">
+            <h2> Cabinate</h2>
+            <div class="box-img" style="background-image: url('/public/images/cabinate_main.jpg');"></div>
+            <p>See more</p></a>
+            </div>
+        </div>
+        <div class="box1 box">
+            <a href="/login/iitems/gamingsetup.html">
+            <div class="box-content">
+            <h2> Gaming setup</h2>
+            <div class="box-img" style="background-image: url('/public/images/gaming_main.jpg');"></div>
+            <p>See more</p></a>
+            </div>
+        </div>
+        <div class="box2 box">
+            <a href="/login/iitems/motherboard.html">
+            <div class="box-content">
+            <h2> Motherboard & CPU</h2>
+            <div class="box-img" style="background-image: url('/public/images/motherboard_main.jpg');"></div>
+            <p>See more</p></a>
+            </div>
+        </div>
+        <div class="box3 box">
+            <a href="/login/iitems/ram.html">
+            <div class="box-content">
+            <h2> RAM</h2>
+            <div class="box-img" style="background-image: url('/public/images/ram_main.jpg');"></div>
+            <p>See more</p></a>
+            </div>
+        </div>
+        <div class="box4 box">
+            <a href="/login/iitems/harddisk.html">
+            <div class="box-content">
+            <h2>Hard Drives & SSD</h2>
+            <div class="box-img" style="background-image: url('/public/images/ssd_main.jpg');"></div>
+            <p>See more</p></a>
+            </div>
+        </div>
+        <div class="box1 box">
+            <a href="/login/iitems/monitor.html">
+            <div class="box-content">
+            <h2> Monitor</h2>
+            <div class="box-img" style="background-image: url('/public/images/monitor_main.jpg');"></div>
+            <p>See more</p></a>
+            </div>
+        </div>
+        <div class="box2 box">
+            <a href="/login/iitems/repair.html">
+            <div class="box-content">
+            <h2> Second Hand & Repair</h2>
+            <div class="box-img" style="background-image: url('/public/images/repair_main.jpeg');"></div>
+            <p>See more</p></a>
+            </div>
+        </div>
+        <div class="box3 box">
+            <a href="/login/iitems/keyboard.html">
+            <div class="box-content">
+            <h2> KeyBoards & Mouse</h2>
+            <div class="box-img" style="background-image: url('/public/images/keyboard_main.jpg');"></div>
+            <p>See more</p></a>
+            </div>
+        </div>
+        <div class="box4 box">
+            <a href="/login/iitems/others.html">
+            <div class="box-content">
+            <h2> Others Tools</h2>
+            <div class="box-img" style="background-image: url('/public/images/box4_image.jpg');"></div>
+            <p>See more</p></a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <!-- <p>&copy; 2023 Your E-Commerce Store. All rights reserved.</p> -->
+        <div class="foot-panel1">
+            <input id="click" class="border" type="button" value="Back On Top" onclick="scrollToTop()">
+        </div>
+        <div class="foot-panel2">
+            <ul style="list-style-type:none;">
+                <p>Get to know us</p>
+                <li>Careers</li>
+                <li>Blog</li>
+                <li>About Sharks</li>
+                <li>Sharks Devices</li>
+                <li>Sharks Science</li>
+            </ul>
+            <ul style="list-style-type:none;">
+                <p>Connect with Us</p>
+                <li>Facebook</li>
+                <li>Instagram</li>
+                <li>Twitter</li>
+                <li><a href="/login/panel/contactpage.html">Send Message</a></li>
+            </ul>
+            <ul style="list-style-type:none;">
+                <p>Make Money with Us</p>
+                <li>Sell on Sharks</li>
+                <li>Sell under Sharks Accelerator</li>
+                <li>Protect and Build Your Brand</li>
+                <li>Sharks India Selling</li>
+                <li>Become an Affiliate</li>
+                <li>Fulfilment by Sharks</li>
+                <li>Advertise Your Products</li>
+            </ul>
+            <ul style="list-style-type:none;">
+                <p>Let Us Help You</p>
+                <li>COVID-19 and Sharks</li>
+                <li>Your Accounts</li>
+                <li>100% Purchase Protection</li>
+                <li>Sharks App Download</li>
+                <li>Help</li>
+            </ul>
+        </div>
+        <div class="foot-panel3">
+            <div class="logobottom" onclick="scrollToTop()"></div>
+        </div>
+        <div class="foot-panel4">
+            <div class="pages">
+                <a>Conditions of Use & Sale</a>
+                <a>Privacy Notice</a>
+                <a>Interest-Based Ads</a>
+            </div>
+            <div class="copy">
+                © 1996-2023, Sharks.com, Inc. or its affiliates
+            </div>
+        </div>
+    </footer>
+    <script src="ecommerce.js"></script>
+</body>
+</html>
