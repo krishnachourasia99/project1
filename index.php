@@ -2,20 +2,18 @@
 session_start();
 
 // Check if the user is logged in
-if (isset($_SESSION["username"])) {
-    $username = $_SESSION["username"];
-    $isLoggedIn = true;
-} else {
-    $isLoggedIn = false;
-}
+$isLoggedIn = !empty($_SESSION["username"]);
+$username = $isLoggedIn ? $_SESSION["username"] : "";
 
 // Handle logout
-if (isset($_POST["logout"])) {
-    session_destroy();
+if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST["logout"])) {
+    session_unset(); // Clear session variables
+    session_destroy(); // Destroy session
     header("Location: index.php");
-    exit();
+    exit;
 }
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
